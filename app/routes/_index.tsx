@@ -5,8 +5,8 @@ import SkillsContainer from '~/components/SkillsContainer';
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: 'New Remix App' },
-		{ name: 'description', content: 'Welcome to Remix!' },
+		{ title: 'Narek Dunamalyan' },
+		{ name: 'description', content: 'Welcome to my portfolio!' },
 	];
 };
 
