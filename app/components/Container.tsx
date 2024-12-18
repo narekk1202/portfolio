@@ -7,7 +7,7 @@ export default function Container() {
 				<h1 className='text-white text-4xl'>Hi, I&apos;m Narek</h1>
 				<p className='text-gray-600 max-w-[350px] mt-5 max-[680px]:text-center'>
 					<span className='text-gray-500'>React developer</span> with{' '}
-					<span className='text-gray-500'>2 years</span> of experience. Skilled
+					<span className='text-gray-500'>4 years</span> of experience. Skilled
 					in building high-performance, scalable, and user-friendly UIs.
 				</p>
 

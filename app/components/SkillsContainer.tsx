@@ -1,7 +1,12 @@
+import {
+	RiNextjsFill,
+	RiReactjsLine,
+	RiRemixRunFill,
+	RiTailwindCssFill,
+} from 'react-icons/ri';
 import { SiJavascript, SiReactrouter, SiTypescript } from 'react-icons/si';
 import Heading from './Heading';
 import SkillCard from './SkillCard';
-import { RiReactjsLine, RiRemixRunFill, RiTailwindCssFill } from 'react-icons/ri'
 
 export default function SkillsContainer() {
 	return (
@@ -11,7 +16,9 @@ export default function SkillsContainer() {
 			<div className='w-full flex flex-wrap items-center justify-center mt-5 gap-4'>
 				<SkillCard
 					name='JavaScript'
-					image={<SiJavascript className='w-10 h-10 text-yellow-500 bg-black' />}
+					image={
+						<SiJavascript className='w-10 h-10 text-yellow-500 bg-black' />
+					}
 				/>
 				<SkillCard
 					name='TypeScript'
@@ -24,6 +31,10 @@ export default function SkillsContainer() {
 				<SkillCard
 					name='TailwindCSS'
 					image={<RiTailwindCssFill className='w-10 h-10 text-[#38BDF8]' />}
+				/>
+				<SkillCard
+					name='Next.js'
+					image={<RiNextjsFill className='w-10 h-10 text-white' />}
 				/>
 				<SkillCard
 					name='Remix'
